@@ -7,7 +7,7 @@ function Buttonprm() {
 
   return (
     <>
-      <Button variant="primary" onClick={() => dispatch(getTodosFetch())}>GET API</Button>
+      <Button variant="primary" onClick={() => dispatch(getTodosFetch())}>DAPATKAN DATA TODOS</Button>
     </>
   );
 }

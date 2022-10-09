@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import "../styles/layout/navbar.css"
 import { useNavigate } from "react-router-dom";
 
-
 function Navigationbar() {
   const navigate = useNavigate();
 

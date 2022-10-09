@@ -1,4 +1,4 @@
-import Content from "../components/cardtodo";
+import Cardtodos from "../components/cardtodos";
 import Buttonprm from "../components/buttonpr"
 import Navigationbar from "../layout/navbar";
 import Footer from "../layout/footer";
@@ -15,7 +15,7 @@ function HomePage() {
       <Buttonprm />
       <div className="d-flex justify-content-around gap-4 flex-wrap my-5">
         {todos.map((item, index) => (
-          <Content
+          <Cardtodos
             key={index}
             title={item.title}
             userID={item.userId}
